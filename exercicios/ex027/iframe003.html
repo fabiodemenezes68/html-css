@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+        }
+        iframe#tela{
+            width: 98vw;
+            height: 700px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum sapiente eos, itaque non nemo aliquam dignissimos fugiat autem ea veritatis odio voluptate quis velit voluptates et dolore modi, temporibus hic. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni inventore fugit corrupti tempora, excepturi repellendus hic maiores! Accusantium mollitia ea magni sed quibusdam doloribus obcaecati, fuga esse, culpa asperiores neque.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pagins003.html" target="frame">Terceira página</a></li>
+        <li><a href="https://odia.ig.com.br/" target="frame">Quarta Página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum sapiente eos, itaque non nemo aliquam dignissimos fugiat autem ea veritatis odio voluptate quis velit voluptates et dolore modi, temporibus hic. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni inventore fugit corrupti tempora, excepturi repellendus hic maiores! Accusantium mollitia ea magni sed quibusdam doloribus obcaecati, fuga esse, culpa asperiores neque.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<img src='imagens/background001.jpg'">
+        <p>Infelizmente o seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae animi modi alias officiis. Ullam consequuntur animi similique nisi inventore pariatur excepturi impedit dolorum corporis, quae est asperiores repellat. Nam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. A sequi sapiente tenetur tempore asperiores fugiat laudantium, maiores obcaecati fugit voluptatibus, animi, voluptas ratione quaerat! Dicta voluptates nam recusandae deserunt hic!</p>
+</body>
+</html>
