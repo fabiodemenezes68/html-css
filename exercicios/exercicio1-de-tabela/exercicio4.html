@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 4</title>
+    <style>
+		body{
+			font-family: Arial, sans-serif;
+		}
+		h1{
+			text-align: center;
+		}
+		caption{
+			font-size: 1.5rem;
+			font-weight: bold;
+			padding: 10px;
+			background-color: gray;
+			color: white;
+		}
+		table{
+			width: 700px;
+			margin: auto;
+			border-collapse: collapse;
+
+		}
+		th, td{
+			border: 2px solid black;
+			padding: 10px;
+			text-align: center;
+		}
+		.cor-de-fundo{
+			background-color: blue;
+			color: white;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+    <h1>Quarto Exercício de Tabelas</h1>
+	<table>
+		<caption>Quarto Exercício de Tabelas</caption>
+		<thead class="cor-de-fundo">
+			<tr>
+				<th scope="col">Área</th>
+				<th scope="col">Disciplinas</th>
+				<th scope="col">Nota 1</th>
+				<th scope="col">Nota 2</th>
+				<th scope="col">Média</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th rowspan="4"scope="rowgroup">Exatas</th>
+				<td>Matemática</td>
+				<td>0.0</td>
+				<td>0.0</td>
+				<td>0.0</td>
+			</tr>
+			<tr>
+				<td>Física</td>
+				<td>0.0</td>
+				<td>0.0</td>
+				<td>0.0</td>
+			</tr>
+			<tr>
+				<td>Química</td>
+				<td>0.0</td>
+				<td>0.0</td>
+				<td>0.0</td>
+			</tr>
+			<tr>
+				<td>Biologia</td>
+				<td>0.0</td>
+				<td>0.0</td>
+				<td>0.0</td>
+			</tr>
+			<tr>
+				<th colspan="4" scope="row"class="cor-de-fundo">Média de Exatas</th>
+				<td class="cor-de-fundo">0.0</td>
+			</tr>
+			<tr>
+				<th rowspan="2"scope="rowgroup">Humanas</th>
+				<td>História</td>
+				<td>0.0</td>
+				<td>0.0</td>
+				<td>0.0</td>
+			</tr>
+			<tr>
+				<td>Geografia</td>
+				<td>0.0</td>
+				<td>0.0</td>
+				<td>0.0</td>
+			</tr>
+			<tr>
+				<th colspan="4" scope="row"class="cor-de-fundo">Média de Humanas</th>
+				<td class="cor-de-fundo">0.0</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
